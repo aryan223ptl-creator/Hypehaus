@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terms, Conditions & Company Information</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #f8fafc;
+            @bottom-right {
+                content: "Page " counter(page) " of " counter(pages);
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 8pt;
+                color: #64748b;
+            }
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #1e293b;
+            margin: 0;
+            padding: 0;
+            font-size: 10pt;
+            line-height: 1.5;
+            background-color: #f8fafc;
+        }
+
+        .header-banner {
+            background-color: #0f172a;
+            color: #ffffff;
+            margin: -18mm -15mm 20px -15mm;
+            padding: 22mm 15mm 12mm 15mm;
+            border-bottom: 4px solid #2563eb;
+        }
+
+        .header-banner h1 {
+            margin: 0 0 6px 0;
+            font-size: 20pt;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #ffffff;
+        }
+
+        .header-banner p {
+            margin: 0;
+            font-size: 9.5pt;
+            color: #94a3b8;
+        }
+
+        .meta-info {
+            margin-top: 12px;
+            font-size: 8.5pt;
+            color: #cbd5e1;
+            border-top: 1px solid #334155;
+            padding-top: 8px;
+        }
+
+        .nav-bar {
+            background-color: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .nav-bar a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 9.5pt;
+            margin: 0 12px;
+        }
+
+        h2 {
+            font-size: 13pt;
+            color: #0f172a;
+            margin-top: 22px;
+            margin-bottom: 10px;
+            padding-left: 8px;
+            border-left: 4px solid #2563eb;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            font-size: 10.5pt;
+            color: #1e293b;
+            margin-top: 12px;
+            margin-bottom: 6px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .index-container {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+
+        .index-list {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        .index-list li {
+            padding: 4px 0;
+            border-bottom: 1px dashed #e2e8f0;
+            display: block;
+        }
+
+        .index-list li:last-child {
+            border-bottom: none;
+        }
+
+        .index-list a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .highlight-box {
+            background-color: #fef2f2;
+            border: 1px solid #fecaca;
+            border-left: 4px solid #dc2626;
+            padding: 10px 12px;
+            margin: 12px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .highlight-box strong {
+            color: #991b1b;
+        }
+
+        .info-card {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 12px 15px;
+            margin: 12px 0;
+        }
+
+        .table-custom {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 9pt;
+        }
+
+        .table-custom th, .table-custom td {
+            border: 1px solid #cbd5e1;
+            padding: 6px 10px;
+            text-align: left;
+        }
+
+        .table-custom th {
+            background-color: #f1f5f9;
+            color: #0f172a;
+            font-weight: 600;
+        }
+
+        .footer-note {
+            margin-top: 25px;
+            padding-top: 12px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 8.5pt;
+            color: #64748b;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Company Information & Policy Hub</h1>
+        <p>About Us, Navigation Index, Contact Information, Terms & Conditions, and Return Policy</p>
+        <div class="meta-info">
+            Effective Date: July 22, 2026 &nbsp;|&nbsp; Version 2.0
+        </div>
+    </div>
+
+    <!-- Quick Navigation Header Bar -->
+    <div class="nav-bar">
+        <a href="#about">About Us</a> &bull; 
+        <a href="#contact">Contact Us</a> &bull; 
+        <a href="#index">Document Index</a> &bull; 
+        <a href="#terms">Terms & Conditions</a> &bull; 
+        <a href="#returns">Return Policy</a>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="info-card">
+            <p>Welcome to our company. We are committed to delivering premium quality products designed to meet the highest industry standards. Our dedication to craftsmanship, customer transparency, and seamless service drives everything we do.</p>
+            <p>We take pride in rigorous quality assurance checks prior to dispatch to ensure that every package leaves our facility in pristine condition. Our streamlined logistics ensure safe and timely delivery directly to your doorstep.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="info-card">
+            <p>If you have questions regarding your order, product specifications, or need assistance with a damaged shipment, our dedicated support team is here to help.</p>
+            <table class="table-custom">
+                <tr>
+                    <th style="width: 30%;">Customer Support Email</th>
+                    <td><strong>support@example.com</strong></td>
+                </tr>
+                <tr>
+                    <th>Support Hours</th>
+                    <td>Monday – Friday: 9:00 AM – 5:00 PM (EST)</td>
+                </tr>
+                <tr>
+                    <th>Response Time</th>
+                    <td>Within 24 to 48 business hours</td>
+                </tr>
+                <tr>
+                    <th>Corporate Address</th>
+                    <td>100 Enterprise Way, Suite 400, Commerce City, NY 10001</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- INDEX SECTION -->
+    <section id="index">
+        <h2>Document Index</h2>
+        <div class="index-container">
+            <ul class="index-list">
+                <li><strong>Section 1:</strong> <a href="#about">About Us & Corporate Overview</a></li>
+                <li><strong>Section 2:</strong> <a href="#contact">Contact Information & Support Hours</a></li>
+                <li><strong>Section 3:</strong> <a href="#terms">General Terms & Conditions</a>
+                    <ul>
+                        <li>3.1 Agreement to Terms</li>
+                        <li>3.2 Product Availability & Pricing</li>
+                    </ul>
+                </li>
+                <li><strong>Section 4:</strong> <a href="#returns">Strictly Limited Return & Refund Policy</a>
+                    <ul>
+                        <li>4.1 Eligibility Criteria (Damaged Goods Only)</li>
+                        <li>4.2 Non-Returnable Items & Exclusions</li>
+                    </ul>
+                </li>
+                <li><strong>Section 5:</strong> <a href="#claims">How to Submit a Return Claim</a></li>
+                <li><strong>Section 6:</strong> <a href="#refunds">Refunds & Replacements Workflow</a></li>
+                <li><strong>Section 7:</strong> <a href="#liability">Limitation of Liability</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- TERMS & CONDITIONS SECTION -->
+    <section id="terms">
+        <h2>General Terms & Conditions</h2>
+        <p>By accessing, browsing, or purchasing from our platform, you agree to comply with and be bound by the following terms and conditions of use, which together with our return policy govern our relationship with you.</p>
+
+        <h3>3.1 Agreement to Terms</h3>
+        <p>By placing an order with us, you represent that you are at least the age of majority in your state or province of residence and have given us your consent to allow any of your minor dependents to use this site. If you do not agree to all terms, you may not access the website or use any services.</p>
+
+        <h3>3.2 Product Availability & Pricing</h3>
+        <p>All prices are subject to change without prior notice. We reserve the right at any time to modify or discontinue any product or service without notice. We shall not be liable to you or to any third party for any modification, price change, suspension, or discontinuance of service.</p>
+    </section>
+
+    <!-- RETURN POLICY SECTION -->
+    <section id="returns">
+        <h2>Strictly Limited Return & Refund Policy</h2>
+        
+        <div class="highlight-box">
+            <strong>STRICT RETURN POLICY NOTICE:</strong><br>
+            We operate under a strict <strong>Damaged-On-Arrival Return Policy</strong>. We ONLY accept returns, exchanges, or refunds if the product arrives damaged due to shipping or transit. Returns based on buyer's remorse, change of mind, incorrect ordering, or normal wear and tear are strictly not accepted.
+        </div>
+
+        <h3>4.1 Eligibility Criteria for Returns</h3>
+        <p>To qualify for a return, replacement, or refund, all of the following conditions must be met:</p>
+        <ul>
+            <li><strong>Physical Damage in Transit:</strong> The item must have sustained visible physical damage during shipping.</li>
+            <li><strong>Reporting Window:</strong> Damaged items must be reported to our customer support team within <strong>48 hours</strong> of delivery. Claims made after 48 hours will not be honored.</li>
+            <li><strong>Unused Condition:</strong> The item must be unused, in its original packaging, and with all tags, accessories, and manuals intact.</li>
+            <li><strong>Proof of Damage Required:</strong> Clear photo and/or video evidence of the damaged package and item must be provided upon submitting a claim.</li>
+        </ul>
+
+        <h3>4.2 Non-Returnable Items & Exclusions</h3>
+        <p>We do not accept returns under any of the following circumstances:</p>
+        <ul>
+            <li>Change of mind or accidental purchases.</li>
+            <li>Damage resulting from misuse, improper installation, or handling after delivery.</li>
+            <li>Minor cosmetic box damage that does not affect the functionality of the product inside.</li>
+            <li>Requests submitted after the mandatory 48-hour post-delivery window.</li>
+        </ul>
+    </section>
+
+    <!-- CLAIM PROCESS -->
+    <section id="claims">
+        <h2>How to Submit a Return Claim</h2>
+        <p>If your package arrives damaged, please follow this step-by-step procedure to ensure prompt processing of your request:</p>
+        <ol>
+            <li><strong>Inspect Your Order Immediately:</strong> Upon receiving your package, inspect the outer carton and product inside before discarding packaging materials.</li>
+            <li><strong>Document the Damage:</strong> Take clear, high-resolution photographs and a short video showing the outer shipping label, shipping carton, and damaged product.</li>
+            <li><strong>Contact Support:</strong> Email <strong>support@example.com</strong> within 48 hours with your Order ID, tracking number, photos/videos, and a brief explanation of the damage.</li>
+            <li><strong>Claim Review:</strong> Our Quality Assurance team will review your submission within 1–2 business days.</li>
+        </ol>
+    </section>
+
+    <!-- REFUNDS & REPLACEMENTS -->
+    <section id="refunds">
+        <h2>Refunds & Replacements</h2>
+        <table class="table-custom">
+            <thead>
+                <tr>
+                    <th>Resolution Type</th>
+                    <th>Condition</th>
+                    <th>Processing Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Replacement</strong> (Preferred)</td>
+                    <td>Item is in stock and damage claim is verified.</td>
+                    <td>Dispatched within 2 business days of claim approval.</td>
+                </tr>
+                <tr>
+                    <td><strong>Full Refund</strong></td>
+                    <td>Item is out of stock or cannot be replaced.</td>
+                    <td>Processed to original payment method within 5–7 business days.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- LIABILITY -->
+    <section id="liability">
+        <h2>Limitation of Liability</h2>
+        <p>In no event shall our company, its directors, officers, employees, or affiliates be liable for any indirect, incidental, punitive, or consequential damages arising from the delivery, use, or inability to use our products, beyond the purchase value of the product ordered.</p>
+    </section>
+
+    <div class="footer-note">
+        &copy; 2026 Your Business Name. All rights reserved.
+    </div>
+
+</body>
+</html>
+terms_and_return_policy_v2.html
+Displaying terms_and_return_policy_v2.html.
